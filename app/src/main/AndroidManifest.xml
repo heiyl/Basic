@@ -23,8 +23,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".IApplication">
-        <activity android:name=".MainActivity">
+        android:name="cn.my.project.IApplication">
+        <activity android:name="cn.my.project.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

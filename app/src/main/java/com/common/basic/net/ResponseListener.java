@@ -1,5 +1,7 @@
 package com.common.basic.net;
 
+import cn.my.project.models.ResultDto;
+
 /**
  * 网络请求回调类
  * @param <T>

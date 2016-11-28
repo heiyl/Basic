@@ -330,19 +330,6 @@ byte[] result = RSACoder.decrypt(Key key, byte[] data,PADDING padding)
 byte[] result = RSACoder.decryptByPublicKey(byte[] publicKey, byte[] data,PADDING padding)
 //私钥解密
 byte[] result = RSACoder.decryptByPrivateKey(byte[] publicKey, byte[] privateKey, byte[] data,PADDING padding)
-Adapter
-
-ViewHolderAdapter
-
-BaseAdapter ViewHolder优化版Adapter
-
-FragmentAdapter
-
-Fragment page adapter
-
-RecyclingPagerAdapter
-
-可回收的PagerAdapter
 
 权限
 大家根据自己使用了哪些工具，分别添加相关权限即可
