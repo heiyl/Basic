@@ -1,11 +1,11 @@
 package com.common.basic;
 
 /**
- * Desction:
- * Author:pengjianbo
- * Date:15/10/8 下午11:09
+ * 网络请求常量值
  */
 public class Constants {
+    //是否为Debug模式
+    public static boolean DEBUG = Boolean.TRUE;
+    //Http请求超时时间
     public static final int REQ_TIMEOUT = 60000;
-    public static final String GAME_DOWNLOAD_INFO = "game_download_info_%1$s";
 }

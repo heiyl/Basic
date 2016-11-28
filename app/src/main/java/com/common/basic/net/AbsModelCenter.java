@@ -1,8 +1,11 @@
 package com.common.basic.net;
 
-import okhttpfinal.HttpRequest;
-import okhttpfinal.RequestParams;
-import okhttpfinal.StringHttpRequestCallback;
+import com.common.basic.okhttpfinal.business.HttpRequest;
+import com.common.basic.okhttpfinal.business.RequestParams;
+import com.common.basic.okhttpfinal.business.StringHttpRequestCallback;
+import com.common.basic.okhttpfinal.business.Utils;
+
+import cn.my.project.models.ResultDto;
 
 public class AbsModelCenter<T extends ResultDto> {
     private static final String TAG = AbsModelCenter.class.getSimpleName();
@@ -109,7 +112,13 @@ public class AbsModelCenter<T extends ResultDto> {
         });
     }
 
-    public void cancleRequest(String url) {
+    /**
+     * 取消指定的url请求
+     * @param srcUrl:请求链接
+     * @param requestParams：请求参数
+     */
+    public void cancleRequest(String srcUrl, RequestParams requestParams) {
+        String url = Utils.getFullUrl(srcUrl, requestParams.getFormParams(), requestParams.isUrlEncoder());
         HttpRequest.cancel(url);
     }
 }

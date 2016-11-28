@@ -1,11 +1,12 @@
 package com.common.basic.net;
 
-import com.common.basic.utils.StringUtils;
 import com.google.gson.Gson;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.common.basic.tools.StringUtils;
 
 public abstract class DataObject {
 
@@ -15,7 +16,7 @@ public abstract class DataObject {
     }
 
     public static <T extends DataObject> List<T> getList(Type type, String json) {
-        if (!StringUtils.hasValue(json))
+        if (!StringUtils.isEmpty(json))
             return new ArrayList<T>();
         Gson gson = new Gson();
         return gson.fromJson(json, type);
