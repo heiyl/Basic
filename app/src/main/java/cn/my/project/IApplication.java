@@ -67,9 +67,9 @@ public class IApplication extends Application {
                 .setTimeout(Constants.REQ_TIMEOUT)
                 .setInterceptors(interceptorList)
                 .setSSLSocketFactory(sslContext.getSocketFactory())
-                        //.setCookieJar(CookieJar.NO_COOKIES)
-                        //.setCertificates(...)
-                        //.setHostnameVerifier(new SkirtHttpsHostnameVerifier())
+                //.setCookieJar(CookieJar.NO_COOKIES)
+                //.setCertificates(...)
+                //.setHostnameVerifier(new SkirtHttpsHostnameVerifier())
                 .setDebug(true);
 //        addHttps(builder);
         OkHttpFinal.getInstance().init(builder.build());

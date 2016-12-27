@@ -42,6 +42,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //OKHttp网络请求：https://github.com/square/okhttp
+    //https://github.com/square/okhttp
     compile 'com.squareup.okhttp3:okhttp:3.3.1'
     //https://github.com/alibaba/fastjson
     compile 'com.alibaba:fastjson:1.1.52.android'
