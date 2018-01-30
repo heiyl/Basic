@@ -2,102 +2,130 @@
 <items version="2" >
 
     <item
-        jar="E:\android_studio\android_studio\project\basic\app\build\intermediates\transforms\proguard\release\jars\3\3\main.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\android_studio\android_studio\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
-        sha1="e339b46eeea0642193af8afe4decc34d6c1e44f4">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\release\main_d5cddc3f3caf1bf70c344acd8485c86f5f5a3bce.jar" />
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_536bdc4a80fe00a916b4586dfdafac40ed861b1a\classes.dex" />
     </item>
     <item
-        jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="F:\git\Basic\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
-        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\okhttp-3.3.1_245594f1ecaff17f3fa223fc966ac8026d04f16e.jar" />
+        sha1="aec72380e8b43da64bed9f6ad7dd1ecae2ff688b">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_193eb9c4346040ccc50c01fda6e43b7e34f0b942\classes.dex" />
     </item>
     <item
-        jar="E:\android_studio\android_studio\project\basic\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="F:\git\Basic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_4cbb2c22a4bc09d10cd621478b9a026387109af6.jar" />
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_daf6f2b67a53645f248dee4a97d8cf49738b66d2\classes.dex" />
     </item>
     <item
-        jar="E:\android_studio\android_studio\project\basic\app\build\intermediates\exploded-aar\com.jude\swipebackhelper\3.1.2\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
-        sha1="6345fcd093d50830901796aa073a1134521d6d5f">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\com.jude-swipebackhelper-3.1.2_f0c08ffd994ec7412587b37c307cdde75049e2a4.jar" />
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_938210a20b8649a979a8f66ec539646944b6758a\classes.dex" />
     </item>
     <item
-        jar="E:\android_studio\android_studio\project\basic\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_8d4cd9cd0466cafc504730c3a89d556612ccd7f6.jar" />
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_dde4da80a961841b367773c9077c7cadad222e4b\classes.dex" />
     </item>
     <item
-        jar="E:\android_studio\android_studio\project\basic\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_43ed7827ddb607fe2ff30548361b37876efa129c.jar" />
-    </item>
-    <item
-        jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\okio-1.8.0_d758cfb5cd550a06fd63a6588001c0e972d007e2.jar" />
-    </item>
-    <item
-        jar="E:\android_studio\android_studio\project\basic\app\build\intermediates\transforms\proguard\release\jars\3\1f\main.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="0c6df8fe49a357ee7246b4a9549da36877c30e2d">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\release\main_fe87be7ae51f89c906a63d25e84f507aa3ecc214.jar" />
-    </item>
-    <item
-        jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.1.52.android\6fcd2df42d3576368514855c72baabe3b6e318e0\fastjson-1.1.52.android.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="6fcd2df42d3576368514855c72baabe3b6e318e0">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\fastjson-1.1.52.android_cf304a997c63391550d9528516130916ad3df17f.jar" />
-    </item>
-    <item
-        jar="E:\android_studio\android_studio\project\basic\app\libs\gson-2.3.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="F:\git\Basic\app\libs\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\gson-2.3.1_c45f6e3e3cc64e7e5a5a9659c3a8bdcce0197804.jar" />
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.3.1_dec1b56db488804ccc7bd9fc61ed1439b58818fe\classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="F:\git\Basic\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bae8edc18f09ccb84f35d7128054b92dae429cf9">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_97f856dc9797a39d99d935ba1c1c9a8c40a9054e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.1.52.android\6fcd2df42d3576368514855c72baabe3b6e318e0\fastjson-1.1.52.android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6fcd2df42d3576368514855c72baabe3b6e318e0">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.1.52.android_cf304a997c63391550d9528516130916ad3df17f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_245594f1ecaff17f3fa223fc966ac8026d04f16e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\git\Basic\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_62624750f7a08cdcefa973d0f46066909be6d161\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\git\Basic\app\build\intermediates\exploded-aar\com.jude\swipebackhelper\3.1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6345fcd093d50830901796aa073a1134521d6d5f">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jude-swipebackhelper-3.1.2_b9a53406480d5552ae60a42be02b9fba2cbfbd3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_d758cfb5cd550a06fd63a6588001c0e972d007e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\git\Basic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_bed1d23ce767bc7b60f33e5b18cf938e4484d558\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\yulong\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_63ff7a529aa9cde618d6e5d85544fc2df42df7a0.jar" />
-    </item>
-    <item
-        jar="E:\android_studio\android_studio\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_eac4d85d4edd737bef4dd6c71f61209ab56028de.jar" />
-    </item>
-    <item
-        jar="E:\android_studio\android_studio\project\basic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_04aee001cf717308ac4a7b7e36597f23c99de071.jar" />
-    </item>
-    <item
-        jar="E:\android_studio\android_studio\project\basic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="E:\android_studio\android_studio\project\basic\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_01d599e814d446c897dfd34e0dc1f0085db638c4.jar" />
+        <dex dex="F:\git\Basic\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_63ff7a529aa9cde618d6e5d85544fc2df42df7a0\classes.dex" />
     </item>
 
 </items>

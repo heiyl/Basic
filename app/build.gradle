@@ -43,11 +43,11 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //OKHttp网络请求：https://github.com/square/okhttp
     //https://github.com/square/okhttp
-    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.9.1'
     //https://github.com/alibaba/fastjson
-    compile 'com.alibaba:fastjson:1.1.52.android'
+//    compile 'com.alibaba:fastjson:1.1.52.android'
     //https://github.com/greenrobot/EventBus
-    compile 'org.greenrobot:eventbus:3.0.0'
+//    compile 'org.greenrobot:eventbus:3.0.0'
     //侧滑返回上一页控件：https://github.com/Jude95/SwipeBackHelper
     compile ('com.jude:swipebackhelper:3.1.2'){
         exclude module: 'appcompat-v7'//去掉重复依赖
